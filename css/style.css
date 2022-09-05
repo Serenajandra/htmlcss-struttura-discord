@@ -82,3 +82,65 @@ header{
             background-color: orange;
             height: 250px;
     }
+
+    /* MAIN */
+
+    .section{
+        display: flex;
+        width: 70%;
+        min-height: 400px;
+        background-color: red;
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+    .img{
+        background-color: lightblue;
+        width:60%;
+        height: 400px; 
+    }
+
+    .text-part{
+        background-color: pink;
+        width: 40%;
+        height: 400px;
+    }
+
+    .wave-container {
+        display: flex;
+        background-color: rgb(141, 135, 135);
+        height: 440px;
+        margin-top: 30px;
+        align-items: center;
+       
+    }
+
+    .section .second {
+        display: flex;
+        align-content: center;
+        width: 70%;
+        height: 400px;
+        margin-left: 15%;
+        
+    }
+
+    .wave-container2{
+        display: flex;
+        background-color: rgb(141, 135, 135);
+        height: 640px;
+        margin-top: 30px;
+        align-content: center;
+    }
+
+    .fourth{
+        background-color: green;
+        align-content: center;
+
+        width: 70%;
+        height: 600px;
+        /* margin-left: 15%; */
+        /* margin-top: 30px; */
+    }
+
+
+    /* FOOTER */
+    .black-containe
