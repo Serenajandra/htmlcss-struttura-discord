@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 /* COMMON */
-
+body{
+    font-family: "whitney", sans-serif;
+}
 
 /* HEADER */
 
@@ -43,7 +45,6 @@ header{
         list-style-type: none;
         width: 70%;
         /* debug */
-        /* width: 240px; */
         background-color: green;
         height: 20px;
     }
@@ -57,7 +58,6 @@ header{
         text-align: end;
         
             /* debug */
-            /* width: 60px; */
             background-color: brown;
             height: 20px;
     }
@@ -88,7 +88,7 @@ header{
     .section{
         display: flex;
         width: 70%;
-        min-height: 400px;
+        height: 400px;
         background-color: red;
         margin-left: 15%;
         margin-top: 30px;
@@ -107,28 +107,28 @@ header{
 
     .wave-container {
         display: flex;
-        background-color: rgb(141, 135, 135);
-        height: 440px;
+        width: 100%;        
         margin-top: 30px;
         align-items: center;
-       
-    }
+         /* debug */
+            background-color: rgb(141, 135, 135);
+            height: 440px;
+        }
 
-    .section .second {
+    .section .second{
         display: flex;
         align-content: center;
-        width: 70%;
-        height: 400px;
-        margin-left: 15%;
         
     }
 
     .wave-container2{
         display: flex;
-        background-color: rgb(141, 135, 135);
-        height: 640px;
         margin-top: 30px;
         align-content: center;
+        width: 100%;
+            /* debug */
+            background-color: rgb(141, 135, 135);
+             height: 640px;
     }
 
     .fourth{
@@ -137,10 +137,42 @@ header{
 
         width: 70%;
         height: 600px;
-        /* margin-left: 15%; */
-        /* margin-top: 30px; */
     }
 
 
     /* FOOTER */
-    .black-containe
+    .black-container{
+        background-color: black;
+        width: 100%;
+        height: 640px;
+    }
+
+    .section five{
+        display: flex;
+        
+    }
+    .five{
+        margin-bottom: 30px;
+    }
+
+    .bigger{
+        background-color: aquamarine;
+        width:40%;
+    }
+    .zero{
+        background-color: pink;
+        width: 20%;
+        border: 1px solid;
+    }
+
+    /* FOOTER */
+    .flex-footer-container{
+        display: flex;
+        width: 70%;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 15%;
+            
+            /* debug */
+            height: 100px;
+    }
